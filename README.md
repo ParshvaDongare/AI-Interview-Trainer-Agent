@@ -76,14 +76,14 @@ Our AI Agent tackles these issues with:
 
 ## 🏗️ Architecture
 
-```mermaid
+
 graph TD;
     A[User Query] --> B{Role Detected?};
     B -- Yes --> C[Search Internal KB (Vector)];
     B -- No --> D[Trigger Google Search Tool];
     C & D --> E[Generate Response using IBM Granite];
     E --> F[User Output];
-```
+
 
 1. Intent detected from user query  
 2. Retrieves info from curated KB or triggers live Google Search  
@@ -93,9 +93,6 @@ graph TD;
 
 ## 🚀 Live Demo
 
-🔗 **Try It Yourself**:  
-👉 [Public Agent URL – Paste Yours Here]
-
 🗨️ Sample Prompts:
 - `"Hi, I’m preparing for a Data Scientist interview."`  
 - `"Give me behavioral questions for Project Manager."`  
@@ -103,26 +100,6 @@ graph TD;
 
 ---
 
-## 🧠 Knowledge Base
-
-All role-specific content is stored in:
-
-📁 `interview_trainer_all_roles_kb.txt`  
-It includes technical Qs, behavioral scenarios, STAR examples, and role-based strategy.
-
----
-
-## 🔮 Roadmap
-
-- 🧪 Mock Interview Simulations w/ scoring  
-- 📄 Resume/Job JD Analyzer (keyword mapping)  
-- 🎙 Voice Interaction (speech-to-text/text-to-speech)  
-- 🌐 Multilingual Support  
-- 📲 Mobile App  
-- 📈 Trend-based Interview Topics  
-- 👤 Progress Tracker & Learning Paths  
-
----
 
 ## ⚠️ Challenges & Learnings
 
